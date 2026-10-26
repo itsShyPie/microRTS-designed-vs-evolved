@@ -1,0 +1,16 @@
+microrts.jar
+*.*~
+*.class
+/bin/
+/.classpath
+/.project
+/.idea
+/.vscode
+
+/sources.txt
+/hpc/sources.list
+/hpc/logs/*
+!/hpc/logs/.keep
+*.tmp
+/runs/smoke/
+/runs/**/local_log.txt

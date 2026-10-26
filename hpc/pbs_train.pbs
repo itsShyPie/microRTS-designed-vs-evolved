@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N microrts-train
+#PBS -J 1-50
+#PBS -V
+#PBS -l select=1:ncpus=24:mem=4gb
+#PBS -l walltime=06:00:00
+#PBS -j oe
+#PBS -o hpc/logs/
+set -euo pipefail
+: "${BOT:?Submit with -v BOT=gp|score|hybrid}"
+
+cd "$PBS_O_WORKDIR"
+bash hpc/run_one.sh "$BOT" "$PBS_ARRAY_INDEX" "${NCPUS:-24}"

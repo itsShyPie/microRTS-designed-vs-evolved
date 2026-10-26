@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N microrts-eval
+#PBS -V
+#PBS -l select=1:ncpus=24:mem=8gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o hpc/logs/
+set -euo pipefail
+
+cd "$PBS_O_WORKDIR"
+bash hpc/eval.sh "${NCPUS:-24}"

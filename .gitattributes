@@ -1,0 +1,8 @@
+* text=auto
+
+*.sh     text eol=lf
+*.pbs    text eol=lf
+*.sbatch text eol=lf
+
+*.jar binary
+*.png binary

@@ -1,0 +1,13 @@
+bot               : gp
+train maps        : maps/8x8/basesWorkersBarracks8x8.xml, maps/8x8/basesWorkers8x8A.xml, maps/12x12/basesWorkers12x12.xml, maps/12x12/SixBasesWorkers12x12.xml, maps/16x16/melee16x16Mixed12.xml, maps/16x16/TwoBasesBarracks16x16.xml
+test maps         : maps/8x8/basesWorkers8x8Obstacle.xml, maps/12x12/basesWorkers12x12F.xml, maps/16x16/EightBasesWorkers16x16.xml
+train opponents   : RandomBiasedAI, WorkerRush, LightRush, HeavyRush, RangedRush, EconomyRush
+held-out opponents: Coac, Mayari, Rojo, Droplet
+population        : 1200
+generations       : 200
+max depth         : 15 (offspring cap; initial depth 5)
+tournament / elite: 3 / 0.1
+crossover / mut.  : 0.85 / 0.25
+fitness games     : 2 per training opponent (one per side), map rotated per generation
+max game cycles   : 2000
+unit type table   : default (new UnitTypeTable())
