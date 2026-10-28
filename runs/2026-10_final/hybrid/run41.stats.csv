@@ -1,0 +1,2 @@
+run,seed,train_seconds,generations,pop_size,threads,host,final_validation,final_pop_mean,final_pop_sd,best_size,best_depth
+41,41,1638.0,200,1200,24,cnode0144,0.8472,0.7426,0.0906,111,15

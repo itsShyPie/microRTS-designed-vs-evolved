@@ -1,2 +1,0 @@
-run,seed,train_seconds,generations,pop_size,threads,host,final_validation,final_pop_mean,final_pop_sd,best_size,best_depth
-47,47,4184.7,200,1200,16,DESKTOP-5K2DR3S,0.7917,0.7384,0.0988,310,15

@@ -28,8 +28,7 @@ Each bot is evolved 50 times: population 1200, 200 generations, max depth 15, ga
 
 ## Results
 
-- `runs/2026-10_final/`: the final results from the HPC (to be added)
-- `runs/2026-10_v2/`: interim local results (trained against EconomyRush; see its `summary.md`)
+- `runs/2026-10_final/`: the final results, 50 runs per bot
 - `runs/2026-09_v1/`: the September pilot
 
 Each results folder has a `summary.md` with win rates, standard deviations and training times.
